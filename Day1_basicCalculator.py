@@ -1,5 +1,5 @@
-num1 = float(input("Enter no 1 : ")
-num2 = float(input("Enter no 2 : ")
+num1 = float(input("Enter no 1 : "))
+num2 = float(input("Enter no 2 : "))
 
 print("choose operator")
 
@@ -8,7 +8,7 @@ print("2 choose -")
 print("3 choose *")
 print("4 choose / ")
 
-choose = int(input(" choose 1/2/3/4 ")
+choose = int(input(" choose 1/2/3/4 "))
 
 if choose==1:
     result = num1 + num2
@@ -19,8 +19,8 @@ elif choose==2:
 elif choose==3:
     result = num1 * num2
     print(result)
-else choose==4:
+elif choose==4:
     result = num1 /num2
     print(result)
-else:
+else :
     print("you have enter wrong choose" , "re enter the thing ")
