@@ -1,0 +1,17 @@
+# creating my Number Guessing game 
+
+import random
+
+ran = random.randint(1,100)
+
+while true:
+    no = int(input("I Think no is : "))
+
+     if no > ran:
+        print("You are too high")
+     elif no < ran:
+        print("you are too low")
+     else no == ran :
+         print("You found the no")
+         break()
+print("thank you ") 
